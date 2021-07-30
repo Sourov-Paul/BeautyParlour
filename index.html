@@ -10,6 +10,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/623041072a.js" crossorigin="anonymous"></script>
+
+    <!-- annimation freamwork cdn  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- custom css -->
     <link rel="stylesheet" href="style.css">
 </head>
@@ -23,7 +27,7 @@
 
         <nav class="navbar navbar-expand-lg navbar-light  container">
             <div class="container-fluid">
-                <a class="navbar-brand logo-nav" href="#"><img class="img-fluid  " src="Group 33092.png" alt=""></a>
+                <a class="navbar-brand logo-nav" href="#"><img class="img-fluid  " data-aos="fade-right" src="Group 33092.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -53,7 +57,7 @@
         </nav>
 
         <section class="container mt-lg-5 ">
-            <div class="row d-flex justify-content-between">
+            <div class="row d-flex justify-content-between" data-aos="fade-right">
                 <div class="col-sm-12 col-md-12 mt-5 col-lg-6 pt-lg-5 ">
                     <h2 class="">BEAUTY SALON FOR EVERY WOMEN</h2>
                     <p class="nav_some_text mt-lg-5 mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus commodo ipsum duis laoreet maecenas. Feugiat </p>
@@ -63,7 +67,7 @@
                 </div>
 
 
-                <div class="col-sm-12 col-md-12 col-lg-6  nav_image mt-sm-2">
+                <div class="col-sm-12 col-md-12 col-lg-6  nav_image mt-sm-2" data-aos="fade-left">
                     <img class="img-fluid  " src="Image_Icon/Image/leady1.png" alt="">
                 </div>
             </div>
@@ -86,7 +90,7 @@
             <div class="row  g-2 container ">
 
 
-                <div class="col col-sm-12 col-md-6 col-lg-4 ">
+                <div class="col col-sm-12 col-md-6 col-lg-4 " data-aos="fade-right">
 
                     <div class="card text-center pt-2" style="width: 18rem;">
                         <img class="img_fluid logo_1 m-auto" src="Image_Icon/Icon/Group 1373.png" class="card-img-top" alt="...">
@@ -97,7 +101,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col  col-sm-12 col-md-6 col-lg-4">
+                <div class="col  col-sm-12 col-md-6 col-lg-4" data-aos="fade-down">
 
                     <div class="card text-center pt-2" style="width: 18rem;">
                         <img class="img_fluid logo_1 m-auto" src="Image_Icon/Icon/Group 1373.png" class="card-img-top" alt="...">
@@ -108,7 +112,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col  col-sm-12 col-md-6 col-lg-4">
+                <div class="col  col-sm-12 col-md-6 col-lg-4" data-aos="fade-left">
 
                     <div class="card text-center pt-2" style="width: 18rem;">
                         <img class="img_fluid logo_1 m-auto" src="Image_Icon/Icon/Group 1373.png" class="card-img-top" alt="...">
@@ -135,13 +139,13 @@
             <div class="container">
 
                 <div class="row g-5 resize">
-                    <div class="col-sm-12 col-md-5 col-lg-6 left_img"> <img class="img-fluid" src="Image_Icon/Image/mkp.png" alt=""></div>
+                    <div data-aos="fade-right" class="col-sm-12 col-md-5 col-lg-6 left_img"> <img class="img-fluid" src="Image_Icon/Image/mkp.png" alt=""></div>
                     <div class=" col-sm-12 col-md-6 col-lg-6 main_article">
-                        <article class="article">
+                        <article class="article " data-aos="fade-left">
                             <h2>Let us handle your screen <span class=" Professionally"> Professionally </span> .</h2>
                             <p>With well written codes, we build amazing apps for all platforms, mobile and web apps in general ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus commodo ipsum.</p>
 
-                            <div class="row d-flex pb-4">
+                            <div class="row d-flex pb-4" data-aos="fade-left">
                                 <div class="col"> <span class="rate">500+</span><br> <span>Happy Customar</span></div>
                                 <div class="col"> <span class="rete2"> 500+</span><br> <span>Happy Customar</span></div>
                             </div>
@@ -156,7 +160,7 @@
 
 
 
-        <section class="container Testimonial ">
+        <section class="container Testimonial " data-aos="fade-left">
 
 
 
@@ -214,18 +218,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
         </section>
     </main>
     <!-- main section end -->
@@ -236,7 +228,31 @@
 
 
 
+    <br>
 
+    <br>
+
+    <br>
+
+    <br>
+
+    <br>
+
+    <br>
+
+    <br>
+
+    <br>
+
+    <br>
+
+    <br>
+
+    <br>
+
+    <br>
+
+    <br>
 
 
 
@@ -252,7 +268,14 @@
     <footer></footer>
     <!-- footer end -->
 
-
+    <!-- annimation js cdn  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 400,
+            duration: 1000
+        });
+    </script>
 
     <!-- bootstrap js cdn -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM " crossorigin="anonymous "></script>
