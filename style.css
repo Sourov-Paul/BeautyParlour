@@ -69,41 +69,109 @@ header {
 /* nav end */
 
 
-/* Our Awesome start */
+/* Professionally start*/
 
-.main_SECTION {}
+span.Professionally {
+    color: #f63e7b;
+    font-weight: bold;
+    font-size: 38px;
+}
 
-.logo_1,
-.logo_2,
-.logo_3 {
+span.rate,
+span.rete2 {
+    color: #f63e7b;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.resize {
+    width: 100%;
+}
+
+section.Professionally_main {
+    background: #fff8f5;
+}
+
+
+/* Professionally end */
+
+
+/* Testimonials start */
+
+.ing1,
+.ing2,
+.ing3 {
+    width: 64px;
+}
+
+.img_size1,
+.img_size2,
+.img_size3 {
+    width: 64px;
+    height: 64px;
+}
+
+.nams {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Poppins';
+}
+
+
+/* Testimonials end */
+
+
+/* responsive site */
+
+.Testimonial {
+    text-align: center;
+}
+
+span.secons_text {
+    font-size: 34px;
+    color: #F63E7B;
+}
+
+span.first_text {
+    color: #111430
+}
+
+.logo_1 {
     width: 74px;
-    margin: 0 auto;
 }
 
-.first_awe {
-    text-align: center;
-}
-
-
-/* .some_tow, */
-
-.some_tow2 {
-    box-shadow: 0px 0px 11px 0px #0000006b;
-    border-radius: 13px;
-}
-
-.some_te {
-    width: 282px;
-}
-
-.Explore_more {
-    text-align: center;
-}
-
-.btn_link {
-    background-color: #F63E7B;
+.btnnss a {
+    background-color: #F63E7B !important;
     color: white;
+}
+
+.imgsx img {
+    width: 64px;
+}
+
+span.oneName {
+    color: #f63e7b;
+}
+
+.star {
+    color: rgb(255, 203, 106);
+}
+
+.star2 {
+    color: rgb(207, 199, 121);
+}
+
+i.fas.fa-circle.me-2.fst_star {
+    color: gray;
+    cursor: pointer;
 }
 
 
 /* Our Awesome end */
+
+@media screen and (max-width: 764px) {
+    .card.text-center.pt-2 {
+        margin: 0 auto;
+    }
+}
