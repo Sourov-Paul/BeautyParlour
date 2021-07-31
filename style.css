@@ -313,21 +313,21 @@ address.address {
 }
 
 h2.company_name {
-    text-align: center;
+    /* text-align: center; */
     color: #23282dbf;
-    cursor: pointer
+    cursor: pointer;
 }
 
 h2.about_us {
-    text-align: center;
+    /* text-align: center; */
     color: #23282dbf;
-    cursor: pointer
+    cursor: pointer;
 }
 
 h2.qoick_links {
-    text-align: center;
+    /* text-align: center; */
     color: #23282dbf;
-    cursor: pointer
+    cursor: pointer;
 }
 
 p.infork {
