@@ -37,7 +37,10 @@ header {
 /* baner animation end */
 
 /* nav start */
-
+.beauty{
+    font-size:40px;
+    font-weight: bold;
+}
 .logo-nav {
     max-width: 127px;
 }
